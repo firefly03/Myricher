@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="21" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="snow" tilewidth="32" tileheight="32">
+  <image source="../../../richer/richer/Resources/map/snow.png" width="700" height="525"/>
+ </tileset>
+ <tileset firstgid="337" name="map_3" tilewidth="32" tileheight="32">
+  <image source="map3_tile.png" width="700" height="525"/>
+ </tileset>
+ <layer name="ground" width="21" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxt0kdsz2EYAOB/m5iJhIt14WLvdbMO1sXem6J0ly5abVHa0l2zQ2sm5sFMSOxNIuFiXUgkZmK7mE8PjV/if3jyvSvve/miI0Kh5awghljiiCeBRJJIZiWrSCGVNNLJYDVryCSLtWSTQy7rWM8G8tjIJvIpoJDNbKGIYkoopYxyKqhkK9vYzg52sosqqqmhlt3UUc8e9rKP/RzgIItYzCEOc4SjHOM4UYGZE5zkFKc5w9lA/xznA/kFLnKJy1zhKte4zg1ucovb3OEu9wI77gfiBzwM5I3vIx7zhKc8CzPznBeB/GUgfsVr3vCWd7wP9D/wkU985gtf+cb3MLd+8JNf/OYPochQKILIyH9zTcRNaUZzWtAy0G8ViFuL20T+f6utWjva04GOYWY6qXUOU++i1pVudKcHPelFb/rQl370ZwADGcRghoTZ2fgO1RvGcEYwMjDb8KdGyUczhrGMC7NrvNoEJjKJyUxhKtOYzgxmMovZzGEu85jPAhY27GYxUSxhKcuIZjkriCGWOOJJIJEkklnJKlJIJY10MljNGjLJYi3Z5JDLOtazgTw2sol8CihkM1soopgSSimjnAoq2co2trODneyiimpqqGU3ddSzh79r1Zh8
+  </data>
+ </layer>
+ <layer name="way" width="21" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtALhjAwMzEA6FEqHMCLEIqA0jA/DMDW4ABMRYsSoIVU9sjvDkNyOCxCjnhbuJNVMkJtC0OIA5vZIJHeHoMUlPr+PgsEJAKKqB9Y=
+  </data>
+ </layer>
+ <layer name="land" width="21" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIBDIiB2TqobWbsQnR8g9xOrH5m9SzCRFPbFhSQu/Uxp3pIQnMWlpFNAWAAAHzw69
+  </data>
+ </layer>
+</map>

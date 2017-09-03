@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\popupLayer">
+      <UniqueIdentifier>{01924e82-b4e8-43d7-a3d6-d6cad1ba68bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\prop">
+      <UniqueIdentifier>{c9940f8c-5bca-4ca5-8be6-63fc7a6148b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SplashScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popupLayer\PopupLayer.cpp">
+      <Filter>src\popupLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapChooseScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameBaseScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map1Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map2Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Map3Scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RicherPlayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RouteNavigation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RicherGameController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\popupLayer\CocosToast.cpp">
+      <Filter>src\popupLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LanguageString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Strength_up.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Bee.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Emergency.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Stretcher.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Fog.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\prop\Pearl.cpp">
+      <Filter>src\prop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SplashScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConstUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popupLayer\PopupLayer.h">
+      <Filter>src\popupLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapChooseScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameBaseScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map1Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map2Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Map3Scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RicherPlayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RouteNavigation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RicherGameController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\popupLayer\CocosToast.h">
+      <Filter>src\popupLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LanguageString.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Strength_up.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Bee.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Emergency.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Stretcher.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Fog.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\prop\Pearl.h">
+      <Filter>src\prop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
